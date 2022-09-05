@@ -1,0 +1,170 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    background: url('inori12.jpg');
+    background-size: 100%;
+}
+
+.c-heading {
+    display: flex;
+    margin-left: 570px;
+    margin-top: 20px;
+}
+
+.c-heading h1 {
+    color: aqua;
+    font-size: 40px;
+    margin: 4px
+    /* border: 2px solid; */
+}
+
+.c-heading img {
+    height: 60px;
+    width: 60px;
+
+}
+
+.c-heading h1:hover {
+    transform: translate(40px, 50px);
+    color: rgb(197, 30, 141);
+
+    /* transform: scale(2) */
+
+
+}
+
+div ul {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+
+}
+
+.navbar li {
+
+    padding: 40px;
+    right: 34px;
+    border: 5px double grey;
+    list-style: none;
+
+    margin: 15px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.navbar li:hover {
+    background-color: black;
+    transform: scale(1.3);
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.navbar li a:hover {
+    color: red;
+}
+
+#selection{
+    text-align: center;
+    text-decoration: dotted;
+    color: lightskyblue;
+}
+
+.container {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.part {
+    margin: 5px;
+}
+
+.part:hover{
+    transform: translatey(80px);
+}
+
+.part img {
+    height: 225px;
+    width: 425px;
+}
+
+#finder{
+    text-align: center;
+    color: bisque;
+    text-decoration: underline;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    transition: width 2s ease-in-out;
+    transition: height 2s ease-in-out;
+}
+
+.form-group input:focus {
+    width: 700px;
+    height: 50px;
+
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   font-size: 25px;
+   color: lightgoldenrodyellow;
+   /* border: 2px solid; */
+}
+
+.checkbox input{
+border: 2px solid black;
+margin-top: 0px;
+}
+
+.checkbox input:hover{
+    transform: scale(2);
+}
+
+ .sender{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ 
+
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+
+.btn {
+    padding: 10px;
+    background-color: black;
+    color: violet;
+    margin: 5px;
+    border-radius: 11px;
+    border-color: rgb(115, 10, 185);
+}
+
+.btn:hover {
+    color: blue;
+    transform: skew(20deg)
+}
